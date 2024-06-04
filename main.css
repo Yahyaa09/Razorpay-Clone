@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+}
+
+.pink {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transform: scale(1);
+    border: 1px solid #2b84ea;
+    padding: 7px 10px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    width: 70px; /* Initial width */
+    height: 35px;
+}
+
+.pink::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+
+.pink:hover::before {
+    transform: scaleX(1); 
+}
+
+.pink:hover {
+    color: #2b84ea;
+}
+
+/* Specific styles for signup-button */
+.signup-button {
+    margin-left: -2%;
+    text-wrap: nowrap;
+    width: 80px; 
+}
+
+.signup-button:hover {
+    width: 100px; 
+}
+
+.signup-button i {
+    position: relative;
+    right: -10px; 
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.signup-button:hover i {
+    right: 0;
+    opacity: 1;
+}
+
+.fa-arrow-right {
+    color: #2b84ea;
+}
+
+.background{
+    background-image: url('assets/feature-section-2BG.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.corefeaturesection{
+    background-size: 100% 100%;
+}
+.move-image{
+    animation: 7s infinite linear movecompanies;
+}
+.ctasection{
+    background-size: 100% 100%;
+}
+
+@keyframes movecompanies {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+    
+}
