@@ -90,6 +90,18 @@ html, body {
 .ctasection{
     background-size: 100% 100%;
 }
+@media (min-width: 1024px) {
+    .signup-button {
+        display: inline-block;
+    }
+}
+
+/* Small screens (less than 1024px) */
+@media (max-width: 1023px) {
+    .signup-button {
+        display: none;
+    }
+}
 
 @keyframes movecompanies {
     0%{
