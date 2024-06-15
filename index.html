@@ -141,7 +141,7 @@
 
         <!-- CARD SECTION -->
 
-        <section class="grid grid-rows-2 grid-cols-3 gap-4 mt-10 w-10/12 max-w-[1080px] mx-auto">
+        <section class="grid grid-rows-6 grid-cols-1 md:grid-rows-3 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 gap-4 mt-10 w-10/12 max-w-[1080px] mx-auto">
 
         <!-- BOX 1 -->
 
@@ -392,11 +392,11 @@
                         <li class="text-white"><i class="text-greenlight fa-solid fa-check"></i> Simplify and track spends with Corporate cards</li>
                         <li class="text-white"><i class="text-greenlight fa-solid fa-check"></i> View financial insights at a glance</li>
                     </ul>
-                    <div class="mt-10 flex gap-4">
+                    <div class="mt-10 flex flex-col-reverse md:flex-row gap-2 md:gap-4">
                         <button
-                            class="relative bg-lightblue flex items-center 
-                            justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md
-                             font-mullish font-bold hover:bg-blue-700 transition-all duration-200">
+                            class="relative bg-lightblue flex items-center justify-center
+                            md:justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md
+                             font-mullish font-bold hover:bg-blue-700 transition-all duration-200 ">
                                 Sign Up
                                 <div class="w-12 h-[60px] bg-greenlight absolute right-6 skew-x-[20deg] 
                                 flex justify-center items-center">
@@ -420,12 +420,12 @@
             
                     </div>
         
-                    <img src="assets/buisness-banking.png" alt="" class="absolute max-w-[600px] right-0 top-0">
+                    <img src="assets/buisness-banking.png" alt="" class="absolute hidden max-w-[400px] bottom-0 right-0 md:block lg:max-w-[600px] lg:top-0">
         
                  </div>
 
                  <!-- card box -->
-                 <div class="grid grid-rows-1 grid-cols-3 gap-4 mt-10">
+                 <div class="grid grid-rows-3 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-3 gap-4 mt-10 flex-wrap">
 
                     <!-- box 1 -->
 
@@ -541,7 +541,7 @@
                  </div>
 
                  <!--Demo box-->
-                 <div class="border border-slate-700 rounded-md w-full flex justify-between items-center mb-24 gap-y-6 p-8 relative">
+                 <div class="border border-slate-700 rounded-md w-full justify-between items-center mb-24 gap-y-6 p-8 relative hidden md:flex-col lg:flex-row md:flex">
                     <p class="font-mullish text-white text-xl">Check out the live demo to learn how RazorpayX works.<span class="font-extrabold">No sign-up required!</span></p>
                     <button
                             class="relative bg-lightblue flex items-center 
@@ -578,7 +578,7 @@
             <img src="assets/feature-section1-dottedrows.png" alt="" class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-1 ">
             
             <!-- cards -->
-            <div class="grid grid-cols-3 grid-rows-2 w-full z-10 gap-5">
+            <div class="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 w-full z-10 gap-5">
 
                 <!-- item1 -->
                 <div class="relative flex items-center ">
@@ -650,7 +650,7 @@
             <p class="font-mullish text-center text-white max-w-[450px] mx-auto">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
 
              <!-- Cards -->
-             <div class="grid grid-cols-4 grid-rows-2 w-full z-10 gap-5 mt-10">
+             <div class="grid grid-cols-1 grid-rows-8 md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 w-full z-10 gap-5 mt-10">
                 <!-- card 1 -->
                 <div>
                     <img src="assets/instant-activation-icon.svg" alt="" class="">
@@ -714,9 +714,9 @@
     <!-- company Animation section -->
 
     <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
-        <div class="mx-auto w-11/12 max-w-[1080px] pt-12 relative flex">
+        <div class="mx-auto w-11/12 max-w-[1080px] pt-12 relative flex flex-col gap-7 md:flex-row md:gap-0">
             <!-- left part -->
-            <div class="flex flex-col justify-center max-w-[calc(100%-500px)] ">
+            <div class="flex flex-col justify-center md:max-w-[calc(100%-500px)] ">
                 <h2 class="text-deepblue font-mullish text-2xl font-extrabold leading-[1.2]">Join the 50,00,000+ businesses using Razorpay</h2>
                 <div class="w-6 h-1 bg-greenlight mb-10 my-4"></div>
                 <p class="font-mullish mb-6">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
@@ -725,7 +725,7 @@
 
             <!-- right part -->
             
-            <div class="h-[500px] w-[500px] relative overflow-y-hidden ">
+            <div class="h-[500px] w-[500px] mx-auto relative overflow-y-hidden ">
                 <div style="background: linear-gradient(180deg,#f4f8ff,#fff0);" class="absolute w-full top-0 h-[150px] z-50">
                 </div>
                 <img src="assets/comanies.png" alt="" class="absolute right-0 top-0 move-image h-auto">
@@ -758,18 +758,18 @@
             </button>
 
             <!-- Main content -->
-            <div class="flex  space-x-[10rem] max-w-[960px] items-center mx-auto my-[100px] flex-row gap-5">
+            <div class="flex  space-x-[10rem] max-w-[960px] items-center mx-auto my-[100px] flex-col xl:flex-row gap-5">
                 <!-- left part -->
                 <div>
                     <img src="assets/user3.jpeg" alt="" class="rounded-xl h-[320px] w-[320px] object-cover object-center ml-4" loading="lazy">
                 </div>
                 
                 <!-- right part -->
-                <div class="max-w-[400px] -mb-2">
+                <div class="max-w-[400px] -mb-2 flex flex-col">
                 <img src="assets/quotes.svg" alt="" class="w-[35px] h-[40px]">
                 <p class="font-mullish font-extralight text-3xl">Readymade Closed Wallet Solution For Quick Refunds</p>
                 <a href="#" class="text-graytext italic underline">Learn More</a>
-                <p class="text-deepblue font-mullish text-2xl font-extrabold leading-[1.2]">Mohammad Yahyaa</p>
+                <p class="text-deepblue font-mullish text-2xl font-extrabold leading-[1.2] -order-1 xl:order-5">Mohammad Yahyaa</p>
                 <p class="font-mullish font-medium">Galgotias College of Engineering & Technology</p>
                 <img src="assets/fake-company-logo.png" alt="" loading="lazy" class="w-[80px] h-[60px]">
 
@@ -831,7 +831,7 @@
            
             <!-- right part -->
             <div class="-mt-5">
-                <img src="assets/ctaImg.svg" alt="" class="w-[240px] h-[282px]">
+                <img src="assets/ctaImg.svg" alt="" class="w-[240px] h-[282px] hidden lg:block">
             </div>
             
         </div>
@@ -840,9 +840,9 @@
 
     <!-- footer section -->
     <section class="relative pb-10 bg-[#EDF7FF] pt-[200px] -mt-[220px] ">
-        <div class="mx-auto w-11/12 max-w-[1080px] pt-12 relative flex justify-between ">
+        <div class="mx-auto w-11/12 max-w-[1080px] pt-12 relative flex flex-col justify-between lg:flex-row">
             <!-- left part -->
-            <div class="max-w-[250px] space-y-3">
+            <div class="w-full md:max-w-[250px] space-y-3">
                 <img src="assets/logo-dark.svg" width="125px" height="30px" alt="Logo" loading="lazy"/>
                 <p class="font-mullish text-graytext text-sm">Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite. It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.</p>
                 <p class="font-mullish text-graytext text-sm">RazorpayX supercharges your business banking experience, bringing effectiveness, efficiency, and excellence to all financial processes. With RazorpayX, businesses can get access to fully-functional current accounts, supercharge their payouts and automate payroll compliance.</p>
@@ -851,7 +851,7 @@
                 <h3 class="text-gray-700 font-bold">SUBSCRIBE TO OUR NEWSLETTER</h3>
 
                 <!-- input field -->
-                <input type="text" class="w-full h-9 border-lightblue border-2 rounded-md" >
+                <input type="text" class="w-[250px] md:w-full h-9 border-lightblue border-2 rounded-md" >
 
                 <div class="flex items-center gap-3">
                     <img src="assets/footer-certificate-1.png" alt="" class="w-[100px]">
@@ -860,7 +860,7 @@
             </div>
 
             <!-- right part -->
-            <div class="w-[100%-250px] flex gap-7">
+            <div class="w-[100%-250px] flex flex-col gap-7 md:flex-row">
                 <!-- first column -->
                 <div class="flex flex-col gap-2 w-[250px]">
                     <h3 class="text-gray-700 font-bold">BANKING PLUS</h3>
